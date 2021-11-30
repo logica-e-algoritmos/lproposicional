@@ -1,7 +1,7 @@
- Variables p q: Prop.
+ Variables phi psi: Prop.
 
  Section landel.
-  Hypothesis H: p /\ q. 
-  Lemma landel: p.
+  Hypothesis H: phi /\ psi. 
+  Lemma landel: phi.
   Admitted.
  End landel.
