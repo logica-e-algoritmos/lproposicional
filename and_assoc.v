@@ -1,8 +1,8 @@
-Variables A B C: Prop.
+Variables p q r: Prop.
 
 Section and_assoc.
-  Hypothesis H: (A /\ B) /\ C.
-  Lemma and_assoc: A /\ (B /\ C).
+  Hypothesis H: (p /\ q) /\ r.
+  Lemma and_assoc: p /\ (q /\ r).
   Proof.
   Admitted.
 End and_assoc.
