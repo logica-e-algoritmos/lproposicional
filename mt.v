@@ -1,10 +1,11 @@
-Variables p q: Prop.
+Variables phi psi: Prop.
 
 Section mt.
-  Hypothesis H1: p -> q.
-  Hypothesis H2: ~q.
-  Lemma mt: ~p.
+  Hypothesis H1: phi -> psi.
+  Hypothesis H2: ~psi.
+  Lemma mt: ~phi.
   Proof.
+    intro u.
     Admitted.
 
 End mt.  

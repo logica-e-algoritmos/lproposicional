@@ -1,8 +1,8 @@
-Variables p q: Prop.
+Variables phi psi: Prop.
 
 Section cp.
-  Hypothesis H: p -> q.
-  Lemma cp: ~q -> ~p.
+  Hypothesis H: phi -> psi.
+  Lemma cp: ~psi -> ~phi.
   Proof.
   Admitted.
 
